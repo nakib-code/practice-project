@@ -1,0 +1,26 @@
+cat > .gitignore <<'EOF'
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/
+
+# macOS files
+.DS_Store
+
+# Test coverage
+coverage/
+EOF
